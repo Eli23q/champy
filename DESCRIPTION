@@ -1,11 +1,23 @@
-Package: mayris
+Package: champy
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Simulation and Testing for an champy Distribution
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: c(
+    person(
+      "Mayra", "Ilbay",
+      email = "mayra.ilbay@espoch.edu.ec",
+      role = c("aut", "cre")
+    ),
+    person(
+    "Luis", "Sanchez",
+    email = "luis.sanchez@espoch.edu.ec",
+    role = c("aut")
+    ))
+Maintainer: Mayra Ilbay <mayra.ilbay@espoch.edu.ec>
+Description: This package implements a custom continuous probability distribution (champy), including its probability density function and cumulative distribution function. It also provides pseudo-random number generation using the inverse transform method and validates the results through chi-square goodness-of-fit test.
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
+Imports:
+    fdth
+RoxygenNote: 7.3.3

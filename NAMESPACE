@@ -1,1 +1,6 @@
 exportPattern("^[[:alpha:]]+")
+export(champy_densidad)
+export(champy_random)
+export(champy_cdf)
+export(champy_validador)
+importFrom(fdth,fdt)
